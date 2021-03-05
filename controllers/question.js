@@ -1,0 +1,1 @@
+exports.getRandomQuestion = (req, res) => {};

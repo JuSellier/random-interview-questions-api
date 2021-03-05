@@ -1,0 +1,3 @@
+## To check if api is up and running (make sur the port number is right)
+GET http://localhost:4242/
+content-type: application/json
