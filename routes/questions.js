@@ -3,3 +3,7 @@ const router = express.Router();
 const questionController = require("../controllers/question");
 
 router.get("/", questionController.getRandomQuestion);
+
+router.post("/", questionController.createQuestion);
+
+module.exports = router;
