@@ -4,6 +4,7 @@ const questionController = require("../controllers/question");
 
 router.get("/", questionController.getRandomQuestion);
 
-router.post("/", questionController.createQuestion);
+// ONLY USED FOR ADDING NEW QUESTIONS (shouldn't be public)
+// router.post("/", questionController.createQuestion);
 
 module.exports = router;
