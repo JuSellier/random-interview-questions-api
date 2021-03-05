@@ -7,6 +7,15 @@ GET http://localhost:4242/api/
 content-type: application/json
 
 
+### To get a random question
+GET https://random-interview-questions-api.herokuapp.com/api/
+content-type: application/json
+
+### To test if the api is live
+GET https://random-interview-questions-api.herokuapp.com
+content-type: application/json
+
+
 ### To add a new question
 POST http://localhost:4242/api/
 content-type: application/json
@@ -14,3 +23,4 @@ content-type: application/json
 {
   "text": "How much would you charge for washing all the windows in this city?"
 }
+
